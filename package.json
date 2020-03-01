@@ -1,0 +1,20 @@
+{
+  "name": "mbp-init-project",
+  "version": "1.0.4",
+  "description": "A tool to initialize git project templates",
+  "main": "index.js",
+  "bin": {
+    "mbp": "./bin/mbp"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["initialize","cli","git project template","mbp"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commander": "^4.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^4.0.3"
+  }
+}
